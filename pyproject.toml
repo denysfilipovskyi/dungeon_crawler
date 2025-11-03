@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dungeon_crawler"
+version = "0.1.0"
+description = ""
+authors = ["Denys Filipovskyi <denys.filipovskyi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dungeon_crawler"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+colorama="0.4.6"
+pytest="7.4.0"
+pytest-cov="4.1.0"
+black="23.3.0"
+pylint="2.17.4"
+mypy="1.4.1"
